@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: b610fe01e73423a41b0255fd314e164d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 84
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: image_2023-02-17_172419945 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 617
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfeff650dd5d254e84d0f126025a8bd
+      internalID: 1314915700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      image_2023-02-17_172419945 (2)_32: -1306730164
+      image_2023-02-17_172419945 (2)_20: -1609744663
+      image_2023-02-17_172419945 (2)_11: -1285223643
+      image_2023-02-17_172419945 (2)_45: 1081044642
+      image_2023-02-17_172419945 (2)_59: -1051751821
+      image_2023-02-17_172419945 (2)_31: -1021333408
+      image_2023-02-17_172419945 (2)_0: 1314915700
+      image_2023-02-17_172419945 (2)_5: 940415514
+      image_2023-02-17_172419945 (2)_51: 1636522003
+      image_2023-02-17_172419945 (2)_15: 2029439568
+      image_2023-02-17_172419945 (2)_16: -1949620621
+      image_2023-02-17_172419945 (2)_61: -2144261951
+      image_2023-02-17_172419945 (2)_23: 993026099
+      image_2023-02-17_172419945 (2)_33: -714134020
+      image_2023-02-17_172419945 (2)_57: -761769271
+      image_2023-02-17_172419945 (2)_22: 1653858223
+      image_2023-02-17_172419945 (2)_10: 685015887
+      image_2023-02-17_172419945 (2)_36: -1566143556
+      image_2023-02-17_172419945 (2)_40: -1419170932
+      image_2023-02-17_172419945 (2)_13: 506375828
+      image_2023-02-17_172419945 (2)_46: -1006596443
+      image_2023-02-17_172419945 (2)_54: -1280001273
+      image_2023-02-17_172419945 (2)_21: 1722117413
+      image_2023-02-17_172419945 (2)_17: 1499601029
+      image_2023-02-17_172419945 (2)_6: 1089072185
+      image_2023-02-17_172419945 (2)_27: -171920815
+      image_2023-02-17_172419945 (2)_26: -791579267
+      image_2023-02-17_172419945 (2)_29: 1762188547
+      image_2023-02-17_172419945 (2)_43: -856054111
+      image_2023-02-17_172419945 (2)_58: 921843867
+      image_2023-02-17_172419945 (2)_56: -283939986
+      image_2023-02-17_172419945 (2)_30: 116162568
+      image_2023-02-17_172419945 (2)_24: -288586842
+      image_2023-02-17_172419945 (2)_44: -1773356688
+      image_2023-02-17_172419945 (2)_28: -145193012
+      image_2023-02-17_172419945 (2)_52: 745616688
+      image_2023-02-17_172419945 (2)_25: -656389519
+      image_2023-02-17_172419945 (2)_1: 994397496
+      image_2023-02-17_172419945 (2)_4: -2003695529
+      image_2023-02-17_172419945 (2)_14: 1949054597
+      image_2023-02-17_172419945 (2)_38: -683725584
+      image_2023-02-17_172419945 (2)_18: -422435984
+      image_2023-02-17_172419945 (2)_39: 246086912
+      image_2023-02-17_172419945 (2)_8: 683977693
+      image_2023-02-17_172419945 (2)_9: 2059220032
+      image_2023-02-17_172419945 (2)_35: 279770934
+      image_2023-02-17_172419945 (2)_60: 564998612
+      image_2023-02-17_172419945 (2)_53: 1494880166
+      image_2023-02-17_172419945 (2)_34: -98341181
+      image_2023-02-17_172419945 (2)_12: -930073056
+      image_2023-02-17_172419945 (2)_7: 2080668499
+      image_2023-02-17_172419945 (2)_62: -1710750587
+      image_2023-02-17_172419945 (2)_48: 2028334314
+      image_2023-02-17_172419945 (2)_63: -1568808558
+      image_2023-02-17_172419945 (2)_19: 209325983
+      image_2023-02-17_172419945 (2)_49: 911815792
+      image_2023-02-17_172419945 (2)_55: 336649328
+      image_2023-02-17_172419945 (2)_41: 16237051
+      image_2023-02-17_172419945 (2)_47: -1566861732
+      image_2023-02-17_172419945 (2)_50: 1513096216
+      image_2023-02-17_172419945 (2)_3: 41432940
+      image_2023-02-17_172419945 (2)_37: 1914950601
+      image_2023-02-17_172419945 (2)_42: -1513524041
+      image_2023-02-17_172419945 (2)_2: -1503001028
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
