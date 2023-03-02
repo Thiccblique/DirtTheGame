@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState
 {
     Walking, 
-    Attack
+    Attack,
+    Shoot
 }
 
 public class PlayerScript : MonoBehaviour
@@ -17,7 +19,18 @@ public class PlayerScript : MonoBehaviour
     public HealthBar healthBar;
     public Rigidbody2D rb;
     public Animator animator;
-   
+    public GameObject projectilePrefab;
+    Vector2 lookDirection = new Vector2(1, 0);
+
+    private bool flashActive;
+    [SerializeField]
+    private float flashLength = 0f;
+    private float flashCounter = 0f;
+    private SpriteRenderer enemySprite;
+
+    
+
+
     int currentHealth;
     public int health { get { return currentHealth; } }
 
@@ -28,6 +41,18 @@ public class PlayerScript : MonoBehaviour
         currentState = PlayerState.Walking;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        rb = GetComponent<Rigidbody2D>();
+       
+    }
+
+    public void ReloadCurrentScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    void FlashStart()
+    {
+        enemySprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -42,7 +67,44 @@ public class PlayerScript : MonoBehaviour
             StartCoroutine(AttackCo());
         }
 
+        if (Input.GetButtonDown("shoot") && currentState != PlayerState.Attack)
+        {
+            StartCoroutine(ShootCo());
+        }
 
+        if (currentHealth <= 0)
+        {
+            ReloadCurrentScene();
+        }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Launch();
+        }
+       
+       
+    }
+    void Launch()
+    {
+        GameObject projectileObject = Instantiate(projectilePrefab, rb.position + Vector2.up * 0.5f, Quaternion.identity);
+
+        Projectile projectile = projectileObject.GetComponent<Projectile>();
+        projectile.Launch(lookDirection, 300);
+
+
+    }
+
+
+
+    public void HurtEnemy(int damageToGive)
+    {
+        currentHealth -= damageToGive;
+        flashActive = true;
+        flashCounter = flashLength;
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private IEnumerator AttackCo()
@@ -53,6 +115,16 @@ public class PlayerScript : MonoBehaviour
         animator.SetBool("Attacking", false);
        
         currentState= PlayerState.Walking;
+    }
+
+    private IEnumerator ShootCo()
+    {
+        animator.SetBool("Shooting", true);
+        currentState = PlayerState.Shoot;
+        yield return null;
+        animator.SetBool("Shooting", false);
+
+        currentState = PlayerState.Walking;
     }
 
     public void ChangeHealth(int amount)
@@ -76,4 +148,5 @@ public class PlayerScript : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
+
 }

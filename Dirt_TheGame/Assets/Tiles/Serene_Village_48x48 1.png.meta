@@ -2927,7 +2927,7 @@ TextureImporter:
         height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 30}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2948,7 +2948,7 @@ TextureImporter:
         height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 28}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3758,48 +3758,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene_Village_48x48_226
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 1537
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84112efa519c5f84ea2669cdf05e2419
-      internalID: 1519790788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene_Village_48x48_227
-      rect:
-        serializedVersion: 2
-        x: 769
-        y: 1537
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2df09c610c5078c4dbcab1e9b1ea7fe0
-      internalID: 836495560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Serene_Village_48x48_229
       rect:
         serializedVersion: 2
@@ -4005,48 +3963,6 @@ TextureImporter:
       bones: []
       spriteID: 8f74a8ddb8a4ab749adbaceb68c2c1c1
       internalID: 2135662528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene_Village_48x48_242
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 1488
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f20319461a799f469114354ff035ee1
-      internalID: 1031491047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene_Village_48x48_243
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 1488
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8e1aab9558e99647816271d7e8157a0
-      internalID: 1840928237
       vertices: []
       indices: 
       edges: []
@@ -4349,10 +4265,10 @@ TextureImporter:
       name: Serene_Village_48x48_261
       rect:
         serializedVersion: 2
-        x: 720
+        x: 721
         y: 1440
-        width: 48
-        height: 48
+        width: 95
+        height: 142
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4362,27 +4278,6 @@ TextureImporter:
       bones: []
       spriteID: 3d7491754eaa6954ba56713d1e7988f0
       internalID: 1303831565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene_Village_48x48_262
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 1440
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4d4376589e002f408ad0bfd37cc4384
-      internalID: -238351081
       vertices: []
       indices: 
       edges: []
@@ -6407,10 +6302,10 @@ TextureImporter:
       name: Serene_Village_48x48_363
       rect:
         serializedVersion: 2
-        x: 288
-        y: 960
+        x: 286
+        y: 969
         width: 192
-        height: 193
+        height: 183
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8004,9 +7899,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 768
+        y: 771
         width: 240
-        height: 192
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8696,10 +8591,10 @@ TextureImporter:
       name: Serene_Village_48x48_517
       rect:
         serializedVersion: 2
-        x: 480
-        y: 768
+        x: 481
+        y: 775
         width: 144
-        height: 192
+        height: 185
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13968,9 +13863,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 480
-        y: 192
+        y: 199
         width: 240
-        height: 192
+        height: 185
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

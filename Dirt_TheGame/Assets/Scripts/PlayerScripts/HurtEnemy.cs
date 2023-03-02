@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dameger : MonoBehaviour
+public class HurtEnemy : MonoBehaviour
 {
+    public int damageToGive = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +19,12 @@ public class Dameger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerScript controller = other.GetComponent<PlayerScript>();
-
-        if (controller != null)
+        if (other.tag == "Enemy")
         {
-            controller.ChangeHealth(-1);
+            EnemyHealthManager eHealthMan;
+            eHealthMan = other.gameObject.GetComponent<EnemyHealthManager>();
+            eHealthMan.HurtEnemy(damageToGive);
         }
     }
+
 }

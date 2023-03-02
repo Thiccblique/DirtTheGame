@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Shadows : MonoBehaviour
 {
     private Animator myAnim;
     private Transform target;
@@ -36,4 +36,6 @@ public class Enemy : MonoBehaviour
         myAnim.SetFloat("moveY", (target.position.y - transform.position.y));
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
     }
+
+   
 }
