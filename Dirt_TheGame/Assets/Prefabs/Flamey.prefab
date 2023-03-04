@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 407927539202425218}
   m_Layer: 0
   m_Name: Flamey
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488609da5fc575c41aff6fb6f237aa43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flashLength: 0
 --- !u!61 &407927539202425218
 BoxCollider2D:
   m_ObjectHideFlags: 0

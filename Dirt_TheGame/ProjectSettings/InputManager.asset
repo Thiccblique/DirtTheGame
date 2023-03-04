@@ -489,7 +489,7 @@ InputManager:
     m_Name: attack
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: 
+    negativeButton: g
     positiveButton: o
     altNegativeButton: 
     altPositiveButton: joystick button 0
@@ -505,7 +505,7 @@ InputManager:
     m_Name: shoot
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: 
+    negativeButton: b
     positiveButton: k
     altNegativeButton: 
     altPositiveButton: joystick button 0

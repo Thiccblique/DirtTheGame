@@ -33,7 +33,7 @@ public class PlayerScript : MonoBehaviour
 
     int currentHealth;
     public int health { get { return currentHealth; } }
-
+    
     Vector2 movement;
 
     void Start()
@@ -81,7 +81,10 @@ public class PlayerScript : MonoBehaviour
         {
             Launch();
         }
-
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Launch();
+        }
         Vector2 move = new Vector2(movement.x, movement.y);
 
         if(!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))

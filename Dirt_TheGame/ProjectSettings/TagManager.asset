@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - MyWeapon
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Things the player should run behind
-  - 
+  - Projectile
   - 
   - 
   - 
