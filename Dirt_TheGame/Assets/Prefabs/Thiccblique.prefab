@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7955133381263971300}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DownSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381265128698}
   - component: {fileID: 7955133381265128697}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ThiccbliqueSlashRight_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381282700773}
   - component: {fileID: 7955133381282700772}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381443901823}
   - component: {fileID: 7955133381443901822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7955133381560021317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LeftSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381613517490}
   - component: {fileID: 7955133381613517489}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381778917575}
   - component: {fileID: 7955133381778917574}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pixil-frame-0 (1) (3)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 7955133383284077429}
   - component: {fileID: 7955133383284077430}
   - component: {fileID: 7955133383284077431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thiccblique
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -621,11 +621,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   moveSpeed: 5
-  maxHealth: 7
+  maxHealth: 6
   currHealth: 0
   healthBar: {fileID: 0}
   rb: {fileID: 7955133383284077429}
   animator: {fileID: 7955133383284077427}
+  projectilePrefab: {fileID: 2120094879736307701, guid: b10dd5b6a51031a40a7f800342027bf9, type: 3}
   flashLength: 1
 --- !u!50 &7955133383284077429
 Rigidbody2D:
@@ -696,7 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381832867387}
   - component: {fileID: 7955133381832867386}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +782,7 @@ GameObject:
   - component: {fileID: 7955133381887617796}
   - component: {fileID: 7955133381887617795}
   - component: {fileID: 7955133381887617794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hitbox
   m_TagString: MyWeapon
   m_Icon: {fileID: 0}
@@ -852,7 +853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381935062465}
   - component: {fileID: 7955133381935062464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133381954762116}
   - component: {fileID: 7955133381954762115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7955133382017315181}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UpSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382062339103}
   - component: {fileID: 7955133382062339102}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ThiccbliqueSlashRight_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1143,7 +1144,7 @@ GameObject:
   - component: {fileID: 7955133382220671296}
   - component: {fileID: 7955133382220671167}
   - component: {fileID: 7955133382220671166}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hitbox
   m_TagString: MyWeapon
   m_Icon: {fileID: 0}
@@ -1214,7 +1215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382223895778}
   - component: {fileID: 7955133382223895777}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1298,7 +1299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382233078739}
   - component: {fileID: 7955133382233078738}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ThiccbliqueSlashRight_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1382,7 +1383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382259702686}
   - component: {fileID: 7955133382259702685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ThiccbliqueSlashRight_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1468,7 @@ GameObject:
   - component: {fileID: 7955133382438985104}
   - component: {fileID: 7955133382438985103}
   - component: {fileID: 7955133382438985102}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hitbox
   m_TagString: MyWeapon
   m_Icon: {fileID: 0}
@@ -1538,7 +1539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382440823416}
   - component: {fileID: 7955133382440823415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pixil-frame-0 (1) (3)_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1622,7 +1623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382652195605}
   - component: {fileID: 7955133382652195604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pixil-frame-0 (1) (3)_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1707,7 +1708,7 @@ GameObject:
   - component: {fileID: 7955133382686119871}
   - component: {fileID: 7955133382686119870}
   - component: {fileID: 7955133382686119869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hitbox
   m_TagString: MyWeapon
   m_Icon: {fileID: 0}
@@ -1778,7 +1779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382769634202}
   - component: {fileID: 7955133382769634201}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pixil-frame-0 (1) (3)_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1862,7 +1863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133382845233298}
   - component: {fileID: 7955133382845233297}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ThiccbliqueSlashRight_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,7 +1946,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7955133382861902402}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RightSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1983,7 +1984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133383045657367}
   - component: {fileID: 7955133383045657366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2067,7 +2068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133383247311010}
   - component: {fileID: 7955133383247311009}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2151,7 +2152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133383264952672}
   - component: {fileID: 7955133383264952671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pixil-frame-0 (1) (3)_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2235,7 +2236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133383295377736}
   - component: {fileID: 7955133383295377735}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2319,7 +2320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955133383354923753}
   - component: {fileID: 7955133383354923752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: All_Character_spritesheet_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

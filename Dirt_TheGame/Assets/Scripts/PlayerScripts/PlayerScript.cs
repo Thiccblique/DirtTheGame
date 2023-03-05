@@ -100,6 +100,7 @@ public class PlayerScript : MonoBehaviour
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
+        projectile.transform.Rotate(0.0f, 0.0f, Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg);
 
 
     }
@@ -148,8 +149,8 @@ public class PlayerScript : MonoBehaviour
     {
         MoveCharacter();
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Horizontal", lookDirection.x);
+        animator.SetFloat("Vertical", lookDirection.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
