@@ -36,6 +36,14 @@ public class Shadows : MonoBehaviour
         myAnim.SetFloat("moveY", (target.position.y - transform.position.y));
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
     }
-
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "MyWeapon")
+        {
+            Vector2 difference = transform.position - other.transform.position;
+            transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
+        }
+    }
    
 }

@@ -126,6 +126,8 @@ public class PlayerScript : MonoBehaviour
         animator.SetBool("Attacking", false);
        
         currentState= PlayerState.Walking;
+       
+        
     }
 
     private IEnumerator ShootCo()
