@@ -23,6 +23,7 @@ public class EnemyHealthManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //This allowes the enemy to have a flash after losing a 1 point of health
         if (flashActive)
         {
             if (flashCounter > flashLength * .99f)
@@ -71,10 +72,7 @@ public class EnemyHealthManager : MonoBehaviour
                  
     }
 
-
-
-
-
+    // This is the health Manager, and decides how much heath an enemy has.
     public void HurtEnemy(int damageToGive)
     {
         currentHealth -= damageToGive;

@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
 
     Rigidbody2D rigidbody2d;
+    public float speed = 50.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
+        
         if (transform.position.magnitude > 100.0f)
         {
             Destroy(gameObject);

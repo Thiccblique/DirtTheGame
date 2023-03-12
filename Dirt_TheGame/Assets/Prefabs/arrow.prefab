@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -7640105331413814636}
   - component: {fileID: 2408217943432665325}
   - component: {fileID: 2384503508249579518}
+  - component: {fileID: 4377304717155942297}
   m_Layer: 0
   m_Name: arrow
   m_TagString: Projectile
@@ -160,3 +161,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb8d4349df4fb48844c8d9af6d20ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 100
+--- !u!95 &4377304717155942297
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120094879736307701}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7793dd0f2db84204bb7d117d22c540ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

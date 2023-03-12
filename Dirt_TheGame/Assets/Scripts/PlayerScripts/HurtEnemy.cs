@@ -17,6 +17,7 @@ public class HurtEnemy : MonoBehaviour
         
     }
 
+    // When something that has the "Enemy" tag enters this collider, they take damage
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Enemy")

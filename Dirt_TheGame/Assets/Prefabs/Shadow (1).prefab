@@ -144,8 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b250ef6b1e6c7fd4bab68d790ad241a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  range: 3
+  speed: 3
+  range: 4
 --- !u!114 &1959728123944615643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6164b9cbbbb1b4185a19272df19880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 6
-  maxHealth: 6
+  currentHealth: 12
+  maxHealth: 12
   flashLength: 0.001

@@ -20,54 +20,9 @@ public class Dameger : MonoBehaviour
     void Update()
     {
 
-        if (flashActive)
-        {
-            if (flashCounter > flashLength * .99f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-
-            else if (flashCounter > flashLength * .82f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-
-            else if (flashCounter > flashLength * -66f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-
-            else if (flashCounter > flashLength * -49f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-
-            else if (flashCounter > flashLength * .33f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-
-            else if (flashCounter > flashLength * .16f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-
-            else if (flashCounter > 0f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-
-            else
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-                flashActive = false;
-            }
-            flashCounter -= Time.deltaTime;
-        }
     }
 
-    
-    
+    // If Player enters this zone, it deducts 1 health point from them
     void OnTriggerEnter2D(Collider2D other)
     {
         PlayerScript controller = other.GetComponent<PlayerScript>();
